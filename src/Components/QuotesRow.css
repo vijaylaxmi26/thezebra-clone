@@ -19,3 +19,15 @@
   padding: 10px;
   margin: 10px;
 }
+
+@media only screen and (max-width: 600px) {
+  .row {
+    display: block;
+    margin: auto;
+    margin-top: 50px;
+  }
+
+  .image > img {
+    width: 80%;
+  }
+}

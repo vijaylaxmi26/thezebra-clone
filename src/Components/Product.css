@@ -5,3 +5,24 @@
 .head {
   text-align: center;
 }
+
+.pro_b {
+  display: none !important;
+}
+
+.view {
+  display: none;
+}
+@media only screen and (max-width: 600px) {
+  .pro_b {
+    display: block !important;
+  }
+
+  .pro_a {
+    display: none !important;
+  }
+
+  .view {
+    display: block;
+  }
+}

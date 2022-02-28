@@ -1,3 +1,8 @@
+* {
+  right: 0;
+  left: 0;
+}
+
 .Footer {
   margin-top: 20px;
   background-color: black;
@@ -9,9 +14,10 @@
   justify-content: space-between;
   padding-top: 30px;
   padding-left: 15%;
-  padding-right: 15%;
+  /* padding-right: 15%; */
   text-align: center;
 }
+
 .Resource,
 .company,
 .State {
@@ -45,4 +51,10 @@
 
 .share_a > span {
   padding: 10px;
+}
+
+@media only screen and (max-width: 600px) {
+  .Footer_content {
+    display: block;
+  }
 }

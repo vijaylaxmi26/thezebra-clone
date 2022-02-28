@@ -24,30 +24,32 @@ export default function ButtonAppBar() {
             <img src={Logo} alt="logo" />
           </Typography>
 
-          <Button color="inherit">
-            Compare
-            <ArrowDropDownIcon />
-          </Button>
+          <div class="buttons">
+            <Button color="inherit">
+              Compare
+              <ArrowDropDownIcon />
+            </Button>
 
-          <Button color="inherit">
-            Tool &#38; Tips
-            <ArrowDropDownIcon />
-          </Button>
+            <Button color="inherit">
+              Tool &#38; Tips
+              <ArrowDropDownIcon />
+            </Button>
 
-          <Button color="inherit">
-            Company
-            <ArrowDropDownIcon />
-          </Button>
+            <Button color="inherit">
+              Company
+              <ArrowDropDownIcon />
+            </Button>
 
-          <Button color="inherit">
-            <PersonOutlineIcon />
-            Login
-          </Button>
+            <Button color="inherit">
+              <PersonOutlineIcon />
+              Login
+            </Button>
 
-          <Button color="inherit">
-            <AddIcCallIcon />
-            +234567234
-          </Button>
+            <Button color="inherit">
+              <AddIcCallIcon />
+              +234567234
+            </Button>
+          </div>
         </Toolbar>
       </AppBar>
     </Box>
