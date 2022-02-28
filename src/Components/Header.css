@@ -1,0 +1,12 @@
+.logo > img {
+  width: 120px;
+  margin: 10px;
+}
+
+Button {
+  margin: 30px;
+}
+
+.boxBackground {
+  background-color: black!important;
+}

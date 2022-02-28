@@ -1,0 +1,48 @@
+.Footer {
+  margin-top: 20px;
+  background-color: black;
+  color: white;
+}
+
+.Footer_content {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 30px;
+  padding-left: 15%;
+  padding-right: 15%;
+  text-align: center;
+}
+.Resource,
+.company,
+.State {
+  line-height: 2;
+}
+
+.Resource > ul {
+  list-style: none;
+}
+
+.Resource > a,
+.company > a,
+.State > a {
+  color: white;
+  text-decoration: none;
+}
+
+.State > a {
+  text-align: center;
+}
+
+.share {
+  margin-top: 80px;
+  text-align: center;
+}
+
+.share_a {
+  margin-top: 20px;
+  line-height: 2;
+}
+
+.share_a > span {
+  padding: 10px;
+}

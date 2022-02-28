@@ -1,9 +1,8 @@
-.Content {
-  margin-top: 12%;
+.QuotesContent {
   justify-content: center;
   text-align: center;
 }
 
-.Content > h1 {
+.QuotesContent > h1 {
   font-size: 50px;
 }
